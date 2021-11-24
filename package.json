@@ -1,0 +1,19 @@
+{
+  "name": "milestone-project-i",
+  "version": "1.0.0",
+  "description": "Milestone-project-I",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swetachovatiya23/Milestone-project-I.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swetachovatiya23/Milestone-project-I/issues"
+  },
+  "homepage": "https://github.com/swetachovatiya23/Milestone-project-I#readme"
+}
