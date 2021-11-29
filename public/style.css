@@ -1,1 +1,8 @@
-!
+body {
+    background-color: rgb(221, 247, 211);
+  }
+
+  h1 {
+    color: rgb(14, 43, 6);
+    margin-left: 20px;
+  }
