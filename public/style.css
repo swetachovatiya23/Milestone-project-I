@@ -1,8 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light-purple-color: #9b5ac7;
+    --light-color: #fff;
+    --dark-color: rgb(34, 51, 25);
+    --grey-color: #f2f2f2;
+    --transition: all 300ms ease-in-out;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 body {
-    background-color: rgb(221, 247, 211);
+    min-height: 100vh;
+    font-family: 'poppins', sans-serif;
+    color: rgb(5, 5, 5);
+    background-color: rgb(224, 243, 217);
   }
 
-  h1 {
-    color: rgb(14, 43, 6);
-    margin-left: 20px;
-  }
+  .wrapper{
+    background: rgb(255, 255, 255) ;
+    padding: 1.5rem 4rem 3rem 4rem;
+    width: 600px;
+    height: 700px;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    position: relative;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
+}
+.game-title{
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(24, 34, 9);
+}
+.game-score{
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(46, 87, 35);
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    margin: .5rem auto 1rem auto;
+    color: rgb(160, 47, 160);
+}
+.game-question{
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+.game-question .category{
+    font-size: 0.9rem;
+    font-weight: 500;
+    background-color: var(--light-purple-color);
+    color: var(--light-color);
+    padding: .2rem .4rem;
+    border-radius: .2rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+.game-options{
+    list-style-type: none;
+    margin: 1rem 0;
+}
+.game-options li{
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin: .7rem 0;
+    padding: .4rem 1.2rem;
+    cursor: pointer;
+    border: 2px solid var(--light-purple-color);
+    background-color: rgb(147, 82, 190);
+    color: white;
+    box-shadow: 0 4px 0 0 #ccbae0;
+    transition: var(--transition);
+}
+.game-options li:hover{
+    background-color: var(--light-purple-color);
+    color: var(--dark-color);
+    border-color: var(--grey-color);
+    box-shadow: 0 4px 0 0 #bbbbbb;
+}
+.game-options li:active{
+    transform: scale(0.97);
+}
+/* js related styling */
+.selected{
+    background-color: rgba(240, 245, 234, 0.671)!important;
+    color: rgb(4, 44, 4)!important;
+    border-color: rgb(201, 226, 194)!important;
+    box-shadow: 0 4px 0 0 hsl(0, 2%, 79%)!important;
+}
+.game-foot button{
+    border: none;
+    border-radius: 0.5rem;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .5rem 1rem;    
+    margin: 0 auto 0 auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(240, 248, 240);
+    color: rgb(26, 44, 26);
+    letter-spacing: 2px;
+    transition: var(--transition);
+    box-shadow: 0 4px 0 0 #bbbbbb;
+}
+.game-foot button:hover{
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 0 0 #a7a7a7;
+}
+.game-foot button:active{
+    transform: scale(0.95);
+}
+#play-again{
+    display: none;
+}
+#result{
+    padding: .7rem 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+#result i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    background-color: var(--light-purple-color);
+    color: var(--light-color);
+}
+
+
+
+
+@media(max-width: 678px){
+    .game-title{
+        font-size: 1.6rem;
+    }
+    .wrapper{
+        margin: 3rem 0;
+        width: 90%;
+        height: 90%;
+        padding: 1.5rem 1rem 3rem 1rem;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .game-foot button{
+        font-size: 1rem;
+    }
+}
