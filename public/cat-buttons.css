@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light-purple-color: #9b5ac7;
+    --light-color: #fff;
+    --dark-color: rgb(34, 51, 25);
+    --grey-color: #f2f2f2;
+    --transition: all 300ms ease-in-out;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'poppins', sans-serif;
+    color: rgb(5, 5, 5);
+    background-color: rgb(224, 243, 217);
+  }
+  
+  .wrapper{
+    background: rgb(255, 255, 255) ;
+    padding: 1.5rem 4rem 3rem 4rem;
+    width: 600px;
+    height: 700px;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    position: relative;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
+}
+.game-title{
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(24, 34, 9);
+}
+.tagline {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.catagories {
+    text-align: center;
+    font-size: 15px;
+} 
+
+  
+  
+
+.game-body button{
+    border: none;
+    border-radius: 0.5rem;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1rem;    
+    margin: 4px 2px ;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(240, 248, 240);
+    color: rgb(26, 44, 26);
+    letter-spacing: 2px;
+    transition: var(--transition);
+    box-shadow: 0 4px 0 0 #bbbbbb;
+    
+    /*height: auto;
+    width: 100%;*/
+}
+
+
+.game-body button:hover{
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 0 0 #a7a7a7;
+}
+.game-body button:active{
+    transform: scale(0.95);
+}
