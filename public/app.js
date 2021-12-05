@@ -15,11 +15,15 @@ let correctAnswer = "", correctScore = askedQue = 0, totalQuestions = 10;
 
 // loading questions from API
 async function loadingQuestions(){
-    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=17';
+    // if (document.getElementById("books") == "books") {
+    //     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
+    // }
+    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
     const result = await fetch(`${APIUrl}`)
     const data = await result.json();
     _result.innerHTML = "";
     showQue(data.results[0]);
+
 }
 
 // event listeners for checkanswer and play again button

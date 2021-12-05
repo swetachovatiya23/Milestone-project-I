@@ -1,0 +1,88 @@
+books: https://opentdb.com/api.php?amount=10&category=10
+
+theaters: https://opentdb.com/api.php?amount=10&category=13
+
+music: https://opentdb.com/api.php?amount=10&category=12
+
+history: https://opentdb.com/api.php?amount=10&category=23
+
+geography: https://opentdb.com/api.php?amount=10&category=22
+
+arts: https://opentdb.com/api.php?amount=10&category=25
+
+sports: https://opentdb.com/api.php?amount=10&category=21
+
+video games: https://opentdb.com/api.php?amount=10&category=15
+
+gadgets: https://opentdb.com/api.php?amount=10&category=30
+
+animals: https://opentdb.com/api.php?amount=10&category=27
+
+science & nature: https://opentdb.com/api.php?amount=10&category=17
+
+mythology: https://opentdb.com/api.php?amount=10&category=20
+
+celebrity: https://opentdb.com/api.php?amount=10&category=26
+
+comics: https://opentdb.com/api.php?amount=10&category=26
+
+politics: https://opentdb.com/api.php?amount=10&category=24
+
+mathematics: https://opentdb.com/api.php?amount=10&category=19
+
+vehicles: https://opentdb.com/api.php?amount=10&category=28
+
+general knowledge: https://opentdb.com/api.php?amount=10&category=9
+
+film: https://opentdb.com/api.php?amount=10&category=11
+
+japanese anime & manga: https://opentdb.com/api.php?amount=10&category=31
+
+
+<button input type=button onClick="location.href='index.html'"
+                value='click here' id='books'>books</button> &nbsp;   
+                <button input type=button onClick="location.href='index.html'"
+                id='theaters'>Theaters</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='music'>Music</button><br> 
+
+                <button input type=button onClick="location.href='index.html'"
+                id='history'>History</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='geography'>Geography</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='arts'>Arts</button><br>
+
+                <button input type=button onClick="location.href='index.html'"
+                id='sports'>Sports</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='video-games'>Video games</button> &nbsp;
+                <button>Gadgets</button><br>
+
+                <button input type=button onClick="location.href='index.html'"
+                id='animales'>Animales</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='science-nature'>Science & Nature</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='mythology'>Mythology</button>
+
+                <button input type=button onClick="location.href='index.html'"
+                id='celebrity'>celebrity</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='comics'>comics</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='politics'>politics</button>
+
+                <button input type=button onClick="location.href='index.html'"
+                id='mathematics'>mathematics</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='vehicles'>vehicles</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                id='general-knowledge'>general knowledge</button>
+
+                <button input type=button onClick="location.href='index.html'"
+                id='film'>film</button><br>
+                <button input type=button onClick="location.href='index.html'"
+                id='japanese-anime-manga'>japanese anime & manga</button><br>
+                
+
