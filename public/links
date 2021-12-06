@@ -1,42 +1,42 @@
-books: https://opentdb.com/api.php?amount=10&category=10
+dict = {books: https://opentdb.com/api.php?amount=10&category=10,
 
-theaters: https://opentdb.com/api.php?amount=10&category=13
+theaters: https://opentdb.com/api.php?amount=10&category=13,
 
-music: https://opentdb.com/api.php?amount=10&category=12
+music: https://opentdb.com/api.php?amount=10&category=12,
 
-history: https://opentdb.com/api.php?amount=10&category=23
+history: https://opentdb.com/api.php?amount=10&category=23,
 
-geography: https://opentdb.com/api.php?amount=10&category=22
+geography: https://opentdb.com/api.php?amount=10&category=22,
 
-arts: https://opentdb.com/api.php?amount=10&category=25
+arts: https://opentdb.com/api.php?amount=10&category=25,
 
-sports: https://opentdb.com/api.php?amount=10&category=21
+sports: https://opentdb.com/api.php?amount=10&category=21,
 
-video games: https://opentdb.com/api.php?amount=10&category=15
+video games: https://opentdb.com/api.php?amount=10&category=15,
 
-gadgets: https://opentdb.com/api.php?amount=10&category=30
+gadgets: https://opentdb.com/api.php?amount=10&category=30,
 
-animals: https://opentdb.com/api.php?amount=10&category=27
+animals: https://opentdb.com/api.php?amount=10&category=27,
 
-science & nature: https://opentdb.com/api.php?amount=10&category=17
+science & nature: https://opentdb.com/api.php?amount=10&category=17,
 
-mythology: https://opentdb.com/api.php?amount=10&category=20
+mythology: https://opentdb.com/api.php?amount=10&category=20,
 
-celebrity: https://opentdb.com/api.php?amount=10&category=26
+celebrity: https://opentdb.com/api.php?amount=10&category=26,
 
-comics: https://opentdb.com/api.php?amount=10&category=26
+comics: https://opentdb.com/api.php?amount=10&category=26,
 
-politics: https://opentdb.com/api.php?amount=10&category=24
+politics: https://opentdb.com/api.php?amount=10&category=24,
 
-mathematics: https://opentdb.com/api.php?amount=10&category=19
+mathematics: https://opentdb.com/api.php?amount=10&category=19,
 
-vehicles: https://opentdb.com/api.php?amount=10&category=28
+vehicles: https://opentdb.com/api.php?amount=10&category=28,
 
-general knowledge: https://opentdb.com/api.php?amount=10&category=9
+general knowledge: https://opentdb.com/api.php?amount=10&category=9,
 
-film: https://opentdb.com/api.php?amount=10&category=11
+film: https://opentdb.com/api.php?amount=10&category=11,
 
-japanese anime & manga: https://opentdb.com/api.php?amount=10&category=31
+japanese anime & manga: https://opentdb.com/api.php?amount=10&category=31}
 
 
 <button input type=button onClick="location.href='index.html'"
@@ -86,3 +86,42 @@ japanese anime & manga: https://opentdb.com/api.php?amount=10&category=31
                 id='japanese-anime-manga'>japanese anime & manga</button><br>
                 
 
+dict = {"books": "https://opentdb.com/api.php?amount=10&category=10",
+
+    "theaters": "https://opentdb.com/api.php?amount=10&category=13",
+    
+    "music": "https://opentdb.com/api.php?amount=10&category=12",
+    
+    "history": "https://opentdb.com/api.php?amount=10&category=23",
+    
+    "geography": "https://opentdb.com/api.php?amount=10&category=22",
+    
+    "arts": "https://opentdb.com/api.php?amount=10&category=25",
+    
+    "sports": "https://opentdb.com/api.php?amount=10&category=21",
+    
+    "videogames": "https://opentdb.com/api.php?amount=10&category=15",
+    
+    "gadgets": "https://opentdb.com/api.php?amount=10&category=30",
+    
+    "animals": "https://opentdb.com/api.php?amount=10&category=27",
+    
+    "science and nature": "https://opentdb.com/api.php?amount=10&category=17",
+    
+    "mythology": "https://opentdb.com/api.php?amount=10&category=20",
+    
+    "celebrity": "https://opentdb.com/api.php?amount=10&category=26",
+    
+    "comics": "https://opentdb.com/api.php?amount=10&category=26",
+    
+    "politics": "https://opentdb.com/api.php?amount=10&category=24",
+    
+    "mathematics": "https://opentdb.com/api.php?amount=10&category=19",
+    
+    "vehicles": "https://opentdb.com/api.php?amount=10&category=28",
+    
+    "general knowledge": "https://opentdb.com/api.php?amount=10&category=9",
+    
+    "film": "https://opentdb.com/api.php?amount=10&category=11",
+    
+    "japanese anime and manga": "https://opentdb.com/api.php?amount=10&category=31"}

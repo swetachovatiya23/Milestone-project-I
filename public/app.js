@@ -13,10 +13,11 @@ const _totalQuestions = document.getElementById('total-questions');
 
 let correctAnswer = "", correctScore = askedQue = 0, totalQuestions = 10;
 
+    
 // loading questions from API
 async function loadingQuestions(){
     // if (document.getElementById("books") == "books") {
-    //     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
+    //    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
     // }
     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
     const result = await fetch(`${APIUrl}`)
@@ -39,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function(){
     _correctScore.textContent = correctScore;
 });
 
-
 // display questions and options
 function showQue(data){
     _checkButton.disabled = false;
@@ -50,7 +50,7 @@ function showQue(data){
     // console.log(correctAnswer);
 
     
-    _questions.innerHTML = `(${askedQue +1}) ${data.question} <br> <span class = "category"> ${data.category} </span>`;
+    _questions.innerHTML = `(${askedQue +1}) ${data.question} <br><span class = "category"> ${data.category} </span>`;
     _options.innerHTML = `
         ${optionsList.map((option, index) => `
             <li> ${index + 1}. <span>${option}</span> </li>

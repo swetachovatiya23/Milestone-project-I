@@ -24,7 +24,9 @@
             <div class = "game-body">
                 
    
-                <scrpit> </scrpit>
+                
+                   
+                
                 <button input type=button onClick="location.href='index.html'"
                 value='books'  id="books">books</button></td> &nbsp;   
                 <button input type=button onClick="location.href='index.html'"
@@ -50,7 +52,26 @@
                 <button input type=button onClick="location.href='index.html'"
                 value='click here'>Science & Nature</button> &nbsp;
                 <button input type=button onClick="location.href='index.html'"
-                value='click here'>Mythology</button><br>
+                value='click here'>Mythology</button>
+
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>celebrity</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>comics</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>politics</button>
+
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>mathematics</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>vehicles</button> &nbsp;
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>general knowledge</button>
+
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>film</button><br>
+                <button input type=button onClick="location.href='index.html'"
+                value='click here'>japanese anime & manga</button><br>
                 
 
 
@@ -61,7 +82,12 @@
     </div>
 
     <!----  link js file  -->
-    <script src = "app.js"></script>
+    <script src = "app.js">
+         function reply_click() {
+                        const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
+                        location.href='index.html';
+                    } 
+    </script>
 </body>
 </html>
  
