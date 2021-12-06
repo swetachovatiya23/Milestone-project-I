@@ -14,4 +14,10 @@ By answering questions and learning in this game, you  are improving your cognit
 
 <h2>how to play the game...</h2>
 
-
+1. You can follow the instruction given on first page.
+2. By clicking the button "Start Play" user can start playing the game.
+3. The button leads user to secong page where all catagories are given, user can choose any catagories based on the intrest and start playing the game.
+4. The catagory button leads us to the actual quiz where 10 questions are give.
+5. User has to select any given option, if the option is correct user will rewarded with 1 point and leads to the next question.
+6. If the selected option is incorrect game will show the correct answer and leads us to the next question.
+7. User can not change the Catagories by clicking "NEXT QUIZ" button and replay the quiz game with diffrent catagories. 
