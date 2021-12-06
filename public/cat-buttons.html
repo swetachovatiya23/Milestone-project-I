@@ -23,54 +23,57 @@
             </div>
             <div class = "game-body">
                 
-   
+                <audio id="audioplayer" autobuffer="" loop="true" preload="auto" src="song.mp3">
+                </audio>
+                <!-- you must include JS after the player; otherwise you will get undifiend object-->
+                
                 
                    
                 
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='books.html'"
                 value='books'  id="books">books</button></td> &nbsp;   
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='theater.html'"
                 value='click here'>Theaters</button></td> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='music.html'"
                 value='click here'>Music</button></td><br> 
 
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='history.html'"
                 value='click here'>History</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='geography.html'"
                 value='click here'>Geography</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='arts.html'"
                 value='click here'>Arts</button><br>
 
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='sports.html'"
                 value='click here'>Sports</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='video-game.html'"
                 value='click here'>Video games</button> &nbsp;
-                <button>Gadgets</button><br>
+                <button input type=button onClick="location.href='gadgets.html'"
+                value='click here'>Gadgets</button> &nbsp;
 
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='animles.html'"
                 value='click here'>Animals</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='science-nature.html'"
                 value='click here'>Science & Nature</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
-                value='click here'>Mythology</button>
+                <button input type=button onClick="location.href='mythology.html'"
+                value='click here'>Mythology</button>&nbsp;
 
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='celebrity.html'"
                 value='click here'>celebrity</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='comic.html'"
                 value='click here'>comics</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
-                value='click here'>politics</button>
+                <button input type=button onClick="location.href='politics.html'"
+                value='click here'>politics</button>&nbsp;
 
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='mathematics.html'"
                 value='click here'>mathematics</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='vehicles.html'"
                 value='click here'>vehicles</button> &nbsp;
-                <button input type=button onClick="location.href='index.html'"
-                value='click here'>general knowledge</button>
+                
 
-                <button input type=button onClick="location.href='index.html'"
-                value='click here'>film</button><br>
-                <button input type=button onClick="location.href='index.html'"
+                <button input type=button onClick="location.href='film.html'"
+                value='click here'>film</button>&nbsp;
+                <button input type=button onClick="location.href='japanes-anime-manga.html'"
                 value='click here'>japanese anime & manga</button><br>
                 
 
@@ -82,12 +85,8 @@
     </div>
 
     <!----  link js file  -->
-    <script src = "app.js">
-         function reply_click() {
-                        const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
-                        location.href='index.html';
-                    } 
-    </script>
+    <script src = "app.js"></script>
+   
 </body>
 </html>
  

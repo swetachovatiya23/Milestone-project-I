@@ -101,7 +101,7 @@ body {
 }
 .game-foot button{
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
     outline: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
@@ -119,14 +119,43 @@ body {
 }
 .game-foot button:hover{
     background-color: #e6e6e6;
-    box-shadow: 0 4px 0 0 #a7a7a7;
+    box-shadow: 0 2px 0 0 #a7a7a7;
 }
 .game-foot button:active{
     transform: scale(0.95);
 }
-#play-again{
-    display: none;
+.category{
+    border: none;
+    border-radius: 0.1rem;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem 1rem;    
+    margin: 0 auto 0 auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(219, 240, 219);
+    color: rgb(26, 44, 26);
+    letter-spacing: 2px;
+    transition: var(--transition);
+    box-shadow: 0 4px 0 0 #bbbbbb;
 }
+.category:hover{
+    background-color: #e6e6e6;
+    box-shadow: 0 2px 0 0 #a7a7a7;
+}
+.category:active{
+    transform: scale(0.95);
+}
+#play-again{
+    display:none;
+}
+#exit{
+    display:none;
+}
+
 #result{
     padding: .7rem 0;
     text-align: center;

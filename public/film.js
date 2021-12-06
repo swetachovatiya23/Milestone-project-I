@@ -19,7 +19,7 @@ async function loadingQuestions(){
     // if (document.getElementById("books") == "books") {
     //    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
     // }
-    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=10';
+    const APIUrl = 'https://opentdb.com/api.php?amount=10&category=11';
     const result = await fetch(`${APIUrl}`)
     const data = await result.json();
     _result.innerHTML = "";
@@ -31,6 +31,7 @@ async function loadingQuestions(){
 function eventListeners(){
     _checkButton.addEventListener('click', checkAnswer);
     _playAgainButton.addEventListener('click', restartQuiz);
+    
 }
 
 document.addEventListener('DOMContentLoaded', function(){
@@ -88,6 +89,7 @@ function checkAnswer(){
             _result.innerHTML = `<p><i class = "fas fa-times"></i>Incorrect Answer!</p> <small><b>Correct Answer: </b>${correctAnswer}</small>`;
         }
         checkCount();
+
         
         //for not selecting any option
     } else {
@@ -114,11 +116,12 @@ function checkCount(){
 
         _result.innerHTML += `<p>Your score is ${correctScore}.</p>`;
         _playAgainButton.style.display = "block";
+
         _checkButton.style.display = "none";
     } else {
         setTimeout(function(){
             loadingQuestions();
-        }, 300);
+        }, 100);
        
     }
 }
