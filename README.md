@@ -21,3 +21,5 @@ By answering questions and learning in this game, you  are improving your cognit
 5. User has to select any given option, if the option is correct user will rewarded with 1 point and leads to the next question.
 6. If the selected option is incorrect game will show the correct answer and leads us to the next question.
 7. User can not change the Catagories by clicking "NEXT QUIZ" button and replay the quiz game with diffrent catagories. 
+
+And here is the website of the game :https://trifle-game.netlify.app/
