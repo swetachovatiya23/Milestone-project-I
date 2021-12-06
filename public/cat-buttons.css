@@ -38,17 +38,30 @@ body {
 .game-title{
     text-align: center;
     font-size: 2.3rem;
-    color: rgb(24, 34, 9);
+    color: rgb(34, 44, 17);
+    
 }
 .tagline {
     text-align: center;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+    font-family: var(--dark-color);
 }
 
 .catagories {
+    list-style-type: none;
     text-align: center;
-    font-size: 15px;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin: .7rem 0;
+    padding: .4rem 1.2rem;
+    cursor: pointer;
+    border: 2px solid var rgb(5, 63, 5);
+    background-color: rgb(217, 236, 219);
+    color: rgb(8, 8, 8);
+    box-shadow: 0 4px 0 0 #5c5c5c;
+    transition: var(--transition);
 } 
 
  
@@ -70,7 +83,7 @@ body {
     color: rgb(26, 44, 26);
     letter-spacing: 2px;
     transition: var(--transition);
-    box-shadow: 0 4px 0 0 #bbbbbb;
+    box-shadow: 0 4px 0 0 #a4b9a6;
     
     /*height: auto;
     width: 100%;*/
@@ -78,8 +91,8 @@ body {
 
 
 .game-body button:hover{
-    background-color: #e6e6e6;
-    box-shadow: 0 4px 0 0 #a7a7a7;
+    background-color: #d7f5cc;
+    box-shadow: 0 4px 0 0 #539e5d;
 }
 .game-body button:active{
     transform: scale(0.95);

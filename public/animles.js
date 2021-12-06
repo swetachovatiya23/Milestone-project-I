@@ -121,7 +121,7 @@ function checkCount(){
     } else {
         setTimeout(function(){
             loadingQuestions();
-        }, 100);
+        }, 1400);
        
     }
 }

@@ -73,8 +73,8 @@ body {
     box-shadow: 0 4px 0 0 #bbbbbb;
 }
 .game-foot button:hover{
-    background-color: #e6e6e6;
-    box-shadow: 0 4px 0 0 #a7a7a7;
+    background-color: #dff3e3;
+    box-shadow: 0 4px 0 0 #97d6a2;
 }
 .game-foot button:active{
     transform: scale(0.95);
