@@ -22,4 +22,4 @@ By answering questions and learning in this game, you  are improving your cognit
 6. If the selected option is incorrect game will show the correct answer and leads us to the next question.
 7. User can not change the Catagories by clicking "NEXT QUIZ" button and replay the quiz game with diffrent catagories. 
 
-And here is the website of the game :https://trifle-game.netlify.app/
+And here is the website of the game :https://trifle-game-by-sweta-chovatiya.netlify.app/
